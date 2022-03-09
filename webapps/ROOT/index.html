@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<h3>Hello, welcome come to Jerry！</h3>
+<h3>这里是Jerry的主页</h3>
+<h3>源码地址：https://github.com/wbincs/jerry</h3>
+<h3>Demo项目地址</h3>
+<h4>1、 Jerry的ROOT项目</h4>
+<a href="/index.html">/index.html Jerry主页</a>
+<a href="/a.html">/a.html html文件</a>
+<a href="/dog.jpg">/dog.jpg 图片</a>
+<a href="/java.pdf">/java.pdf 文件</a>
+<a href="/timeConsume.html">/timeConsume.html 服务端耗时操作</a>
+<h4>2、 a项目，用于展示多项目部署</h4>
+<a href="/a/index.html">/a/index.html</a>
+<a href="/a/a1/index.html">/a/a1/index.html</a>
+<h4>3、 b项目，用于展示多项目部署</h4>
+<a href="/b/index.html">/b/index.html</a>
+<h4>4、 javaweb项目，包含Servlet、Filter、Jsp等</h4>
+<a href="/javaweb/index.jsp">/index.jsp javaweb项目首页</a>
+<a href="/javaweb/hello.jsp">/hello.jsp 从request中取出name参数</a>
+<a href="/javaweb/jump1.jsp">/jump1.jsp 客户端跳转，跳转到/hello路径</a>
+<a href="/javaweb/hello">/hello 类名：HelloServlet，作用：获取配置的Servlet参数，并打印信息</a>
+<a href="/javaweb/param">/param 类名：ParamServlet，获取用户携带的参数。如果是get请求，就从请求url中?之后提取，如果是post请求，那么从http正文中提取。实例：name=wubin&age=24</a>
+<a href="/javaweb/header">/header 类名：HeaderServlet。获取HTTP请求头中的user-agent</a>
+<a href="/javaweb/setCookie">/setCookie 类名：SetCookieServlet。设置cookie，name=wubin</a>
+<a href="/javaweb/getCookie">/getCookie 类名：GetCookieServlet。获取cookie，获取所有Cookie</a>
+<a href="/javaweb/setSession">/setSession 类名：SetSessionServlet。设置session，name_in_session=wubin</a>
+<a href="/javaweb/getSession">/getSession 类名：GetSessionServlet。获取session，name_in_session，value为wubin</a>
+<a href="/javaweb/jump1">/jump1 类名：ClientJumpServlet。客户端重定向，会重定向到 /hello</a>
+<a href="/javaweb/jump2">/jump2 类名：ServerJumpServlet。服务端重定向，会重定向到 /hello.jsp，携带参数name=wubin</a>
+<div style="margin-bottom: 200px"></div>
+</body>
+</html>
